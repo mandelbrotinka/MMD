@@ -1,3 +1,8 @@
+# project specific files
+
+cache/
+genre_distribution.png
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
