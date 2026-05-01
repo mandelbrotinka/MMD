@@ -1,7 +1,8 @@
 # project specific files
 group07.zip
 cache/
-genre_distribution.png
+genre_distribution.png\
+datasets/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
