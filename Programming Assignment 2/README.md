@@ -5,7 +5,7 @@
 ### Reproducibility
 
 * Create a *datasets* folder. 
-* Add in the *datasets* folder the 4 files with the data. Also extract them from the zip folder if necessary.
+* Add fff in the *datasets* folder the 4 files with the data. Also extract them from the zip folder if necessary.
 * The first cell should import all the necessary packages, so make sure to have them installed.
 
 Although they are the standard libraries mentioned in the assignment, we also created a requirements.txt file. To install the necessary packages, just run:
