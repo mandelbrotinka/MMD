@@ -2,7 +2,10 @@
 group07.zip
 cache/
 genre_distribution.png\
-datasets/
+Programming Assignment 2/datasets
+LSH-K-Means.pdf
+PA3.pdf
+Least_squares_quantization_in_PCM.pdf
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
