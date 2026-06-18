@@ -1,0 +1,110 @@
+============================================================
+NEW EXPERIMENT RUN: 2026-06-18 21:54:08
+Method: Lloyd's Algorithm (Baseline) - the optimized one
+============================================================
+k=7 Average Results (5 runs):
+ - NMI: 0.1611
+ - Iterations: 26.4
+ - Runtime: 5.53s
+ - Distance Computations: 107,371,018
+------------------------------
+k=30 Average Results (5 runs):
+ - NMI: 0.1784
+ - Iterations: 45.8
+ - Runtime: 16.06s
+ - Distance Computations: 798,310,488
+------------------------------
+
+============================================================
+NEW EXPERIMENT RUN: 2026-06-18 21:56:41
+Method: Lloyd's Algorithm (Baseline) - The literal computation
+============================================================
+k=7 Average Results (5 runs):
+ - NMI: 0.1611
+ - Iterations: 26.4
+ - Runtime: 18.52s
+ - Distance Computations: 107,371,018
+------------------------------
+
+============================================================
+NEW EXPERIMENT RUN: 2026-06-18 22:00:21
+Method: Lloyd's Algorithm (Baseline)
+============================================================
+k=7 Average Results (5 runs):
+ - NMI: 0.1611
+ - Iterations: 26.4
+ - Runtime: 5.42s
+ - Distance Computations: 107,371,018
+------------------------------
+k=30 Average Results (5 runs):
+ - NMI: 0.1784
+ - Iterations: 45.8
+ - Runtime: 15.07s
+ - Distance Computations: 798,310,488
+------------------------------
+
+============================================================
+NEW EXPERIMENT RUN: 2026-06-18 22:05:41
+Method: k-Means with LSH (Locality Sensitive Hashing)
+Parameters: m_and=2, L_or=3, w=4.0
+============================================================
+k=7 Average Results (5 runs):
+ - NMI: 0.0816
+ - Iterations: 45.6
+ - Distance Computations: 97,520,105
+ - Runtime: 143.74s
+------------------------------
+k=30 Average Results (5 runs):
+ - NMI: 0.0996
+ - Iterations: 81.2
+ - Distance Computations: 327,247,712
+ - Runtime: 299.11s
+------------------------------
+
+============================================================
+NEW EXPERIMENT RUN: 2026-06-18 22:49:34
+Method: k-Means with Lightweight Coresets
+Note: Accuracy averaged over 10 coresets per size m
+============================================================
+k=7, Coreset size m=100 Average Results (10 runs):
+ - NMI: 0.1214 (Std: 0.0337)
+ - Iterations: 6.5
+ - Runtime: 0.2537s
+------------------------------
+k=7, Coreset size m=1000 Average Results (10 runs):
+ - NMI: 0.1555 (Std: 0.0338)
+ - Iterations: 15.7
+ - Runtime: 0.2665s
+------------------------------
+k=7, Coreset size m=10000 Average Results (10 runs):
+ - NMI: 0.1735 (Std: 0.0357)
+ - Iterations: 13.9
+ - Runtime: 0.2665s
+------------------------------
+k=30, Coreset size m=100 Average Results (10 runs):
+ - NMI: 0.1554 (Std: 0.0090)
+ - Iterations: 4.9
+ - Runtime: 0.2620s
+------------------------------
+k=30, Coreset size m=1000 Average Results (10 runs):
+ - NMI: 0.1757 (Std: 0.0071)
+ - Iterations: 11.5
+ - Runtime: 0.2591s
+------------------------------
+k=30, Coreset size m=10000 Average Results (10 runs):
+ - NMI: 0.1803 (Std: 0.0065)
+ - Iterations: 15.5
+ - Runtime: 0.2874s
+------------------------------
+
+============================================================
+NEW EXPERIMENT RUN: 2026-06-18 22:59:13
+Method: k-Means with LSH (Locality Sensitive Hashing)
+Parameters: m_and=2, L_or=3, w=4.0
+============================================================
+k=7 Average Results (5 runs):
+ - NMI: 0.1277
+ - Iterations: 55.0
+ - Distance Computations: 270,028,921
+ - Runtime: 256.06s
+------------------------------
